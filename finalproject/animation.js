@@ -51,4 +51,3 @@ async function shareData() {
   const weatherData = await fetchWeatherData();
   navigator.share(weatherData);
 }
- 
